@@ -1,0 +1,40 @@
+/* CSS Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Define CSS Custom Properties */
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #f1c40f;
+    --background-color: #f9f9f9;
+    --text-color: #333;
+    --spacing-small: 0.5rem;
+    --spacing-medium: 1rem;
+    --spacing-large: 2rem;
+}
+
+/* Base Typography Styles */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: var(--text-color);
+    background-color: var(--background-color);
+}
+
+/* Mobile-First Base Styles */
+body {
+    margin: var(--spacing-small);
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: var(--spacing-medium);
+}
+
+p {
+    margin-bottom: var(--spacing-small);
+}
